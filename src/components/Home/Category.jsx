@@ -20,7 +20,7 @@ import SectionTitle from '../SectionTitle';
 
 const Category = () => {
     return (
-        <div className='container mx-auto h-[400px] w-[300px] p-5 md:w-auto md:h-auto my-20 '>
+        <div className='container mx-auto  p-5 md:w-auto md:h-auto my-20 '>
 
             <SectionTitle heading={'order Online'} subHeading={'From 11:00am to 10:00pm'} />
 
@@ -61,12 +61,14 @@ const Category = () => {
                 className="mySwiper"
             >
 
-                <SwiperSlide className='relative' >
-                    <img className='w-full h-full' src={slide1} alt="" />
-                    <div className='absolute bg-gray-600/50 w-full  bottom-5 '>
-                        <h2 className='uppercase text-3xl text-shadow-lg  font-medium'>Salad</h2>
-                    </div>
-                </SwiperSlide>
+                <div className='h-[400px] w-[300px]'>
+                    <SwiperSlide className='relative' >
+                        <img className='w-full h-full' src={slide1} alt="" />
+                        <div className='absolute bg-gray-600/50 w-full  bottom-5 '>
+                            <h2 className='uppercase text-3xl text-shadow-lg  font-medium'>Salad</h2>
+                        </div>
+                    </SwiperSlide>
+                </div>
                 <SwiperSlide className='relative' >
                     <img className='w-full h-full' src={slide2} alt="" />
                     <div className='absolute bg-gray-600/50 w-full  bottom-5 '>
