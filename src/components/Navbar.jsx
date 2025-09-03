@@ -11,11 +11,15 @@ const Navbar = () => {
             <NavLink to={'/'}>Contact Us</NavLink>
         </li>
         <li>
-            <NavLink to={'/'}>Our Menu</NavLink>
+            <NavLink to={'/menu'}>Our Menu</NavLink>
+        </li>
+        <li>
+            <NavLink to={'/order'}>Order</NavLink>
         </li>
         <li>
             <NavLink to={'/'}>Dashboard</NavLink>
         </li>
+
         <li>
             <NavLink to={'/'}>Cart</NavLink>
         </li>
@@ -37,10 +41,10 @@ const Navbar = () => {
                         </div>
                         <a className="btn btn-ghost text-xl">BistroBoss</a>
                     </div>
-        
+
                     <div className="navbar-end">
                         <ul className="menu font-semibold menu-horizontal px-1 hidden lg:flex uppercase">
-                          {links}
+                            {links}
                         </ul>
                         <a className="btn">Button</a>
                     </div>

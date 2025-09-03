@@ -4,7 +4,7 @@ import './featured.css'
 
 const Featured = () => {
     return (
-        <div className="featured-bg bg-black/40 bg-blend-darken py-10 md:py-20 px-5">
+        <div className="featured-bg bg-fixed bg-black/40 bg-blend-darken py-10 md:py-20 px-5">
             <div className="container mx-auto">
                 <SectionTitle heading={'from our menu'} subHeading={'Check it out'} />
 
